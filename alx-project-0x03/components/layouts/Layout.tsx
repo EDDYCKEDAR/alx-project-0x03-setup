@@ -1,10 +1,7 @@
 import { ReactNode } from "react";
 import Footer from "./Footer";
 import Header from "./Header";
-
-interface LayoutProps {
-  children: ReactNode;
-}
+import { LayoutProps } from "@/interface"; // adjust path if no alias
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
